@@ -25,26 +25,54 @@
       background-color: red;
 
   }
+
 #textbox{
     width: 700px;
 
-}
+ }
 
-
-  @media screen and (max-width: 760px) {   
+  @media screen and (max-width: 900px) {   
   .wrapper {   
     width: 100%;
   }
   #textbox {
     width: 100%; 
-}
+ }
     .container{
         height: 650px;
     }
 
   }
 
-   @media screen and (max-width: 320px) {   
+   @media screen and (max-width: 768px) {   
+    .wrapper {
+        width: 100%;
+    }
+  
+ #textbox {
+        width: 100%;
+    
+  } 
+  .container{
+    height: 650px;
+    }
+} 
+
+@media screen and (max-width: 480px) {   
+    .wrapper {
+        width: 100%;
+    }
+  
+ #textbox {
+        width: 100%;
+    
+  } 
+  .container{
+    height: 650px;
+    }
+} 
+
+@media screen and (max-width: 320px) {   
     .wrapper {
         width: 100%;
     }

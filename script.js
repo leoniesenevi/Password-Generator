@@ -30,9 +30,6 @@ function start() {
   }
 }
 
-window.addEventListener("load",function() {
-    start();
-});
 
 function generatePassword() {
   
@@ -44,6 +41,7 @@ function generatePassword() {
 }
 
 pwdBtn.addEventListener("click", function() {
+  start();
   event.preventDefault();
   textbox.value = generatePassword();
 });
